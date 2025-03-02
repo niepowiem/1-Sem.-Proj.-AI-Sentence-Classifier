@@ -20,7 +20,7 @@ Program will ask you:
 - `'Do you want load pre-existing EmbeddingData and word dataset ? (Y/N):'` If you respond with N it will generate embeddings and create `embeddings_database.json` file. 
 **WARNING:** If you say Y it will try to load `embeddings_database.json` which I don't include so it will cause an error.
 
--`'Do you want load pre-existing weights and biases thus skip training ? (Y/N):'` If you respond with N it will calculate the model and create `model_data.json` file.
+- `'Do you want load pre-existing weights and biases thus skip training ? (Y/N):'` If you respond with N it will calculate the model and create `model_data.json` file.
 **WARNING:** If you say Y it will try to load `model_data.json` which I don't include so it will cause an error.
 
 ## 2. Using The Model
